@@ -31,6 +31,8 @@ jobs:
     - run: npm run test:unit
     - run: |
         cd dist
+        git config --global user.email "rens2sea@rens2sea.com"
+        git config --global user.name "Rens van der Zee"
         git init
         git checkout -b main
         git add -A
