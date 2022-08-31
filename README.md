@@ -1,6 +1,6 @@
 # The Food Factory :pizza:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6cfacc21-60ad-4348-a318-9a3a399d10e5/deploy-status)](https://app.netlify.com/sites/cozy-smakager-bf2100/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6cfacc21-60ad-4348-a318-9a3a399d10e5/deploy-status)](https://app.netlify.com/sites/rens-abn-assignment/deploys)
 
 This web application shows a random meal when loading the home page and has a search functionality to search on meal name.
 
