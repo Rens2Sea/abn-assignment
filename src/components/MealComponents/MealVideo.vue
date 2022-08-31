@@ -1,6 +1,6 @@
 <template>
   <div>
-    <YouTube :src="url" :width="480" :height="360"/>
+    <YouTube class="big" :src="url" :width="320" :height="240"/>
   </div>
 </template>
 
