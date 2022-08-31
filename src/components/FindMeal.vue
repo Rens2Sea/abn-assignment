@@ -47,7 +47,7 @@ const search = () => {
     flex-wrap: wrap;
     place-items: center;
     flex-direction: column;
-    @media (min-width: 1024px) {
+    @media (min-width: 360px) {
       flex-direction: row;
     }
   }
