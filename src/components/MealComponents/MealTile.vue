@@ -68,10 +68,6 @@ if (props.mealId) {
         &.ingredients {
           min-width: 25%
         }
-
-        .video {
-          padding-bottom: 1rem;
-        }
         &.instructions {
           border-top: 1px solid #d3d3d3;
           @media (min-width: 1024px) {

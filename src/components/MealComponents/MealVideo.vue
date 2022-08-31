@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <YouTube class="big" :src="url" :width="320" :height="240"/>
+  <div class="video">
+    <YouTube :src="url"/>
   </div>
 </template>
 
@@ -13,6 +13,14 @@ defineProps<{
 
 </script>
 
-<style scoped>
-
+<style lang="scss">
+  .video {
+    padding: 1rem 0;
+    div {
+      width: 100% !important;
+      iframe {
+        width: 100% !important;
+      }
+    }
+  }
 </style>
