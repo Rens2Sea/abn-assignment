@@ -27,8 +27,13 @@ defineProps({
       #d3d3d3 -10px 0px 13px -7px,
       #d3d3d3 10px 0px 13px -7px,
       #d3d3d3 2px 2px 5px 2px;
-    border-top-right-radius: 5rem;
-    border-top-left-radius: 5rem;
+
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    @media (min-width: 1024px) {
+      border-top-right-radius: 5rem;
+      border-top-left-radius: 5rem;
+    }
     &.small {
       border-top-right-radius: 2rem;
       border-top-left-radius: 2rem;
