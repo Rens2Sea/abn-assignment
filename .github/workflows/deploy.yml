@@ -29,3 +29,10 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm run test:unit
+    - run: |
+        cd dist
+        git init
+        git checkout -b main
+        git add -A
+        git commit -m 'deploy'
+        git push -f git@github.com:rens2sea/abn-assignment.git main:gh-pages
